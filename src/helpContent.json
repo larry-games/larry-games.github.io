@@ -1,0 +1,497 @@
+{
+  "infinitymath": {
+    "type": "game",
+    "nicename": "Infinity Math",
+    "active": true,
+    "minPlayers": 0,
+    "gif": false,
+    "description": "An endless game of math. What's not to like?",
+    "text": [
+      " The game is very simple: A math question will be asked. Solve to gain a point.",
+      " To answer, simply type the answer in the channel.",
+      " When the game ends, the person with the most points, wins.",
+      "-# **Commands** (type in channel)",
+      "- stats - show channel stats",
+      "- player - show player stats (ping a player to view theirs)",
+      "- lbscores, lbtimes, lbservers - View leaderboards",
+      "-# **Bonus Rounds**",
+      "- During a bonus round you can unlock a special reward.",
+      "- Use these special rewards by typing their name when you would normally provide an answer.",
+      "-# **Current available rewards:**",
+      "- - Reset - Reset the timer back to 0s"
+    ]
+  },
+  "guess": {
+    "type": "game",
+    "nicename": "Guessing Game",
+    "gif": false,
+    "description": "Guess the movie or TV show from the clues given.",
+    "text": [
+      "A random movie or TV show will be picked",
+      "- Letters of the title will gradually appear",
+      "- Guess the title first to win the points",
+      "- The earlier you answer, the more points you win"
+    ]
+  },
+  "20q": {
+    "type": "game",
+    "nicename": "20 Questions",
+    "gif": false,
+    "active": false,
+    "description": "Ask questions to find out the word",
+    "text": [
+      "The host provides words",
+      "- Players will be selected at random to ask a **YES or NO** question",
+      "- To ask a question, simply type in channel your question with a **?** at the end",
+      "- Once a question is asked, the host will pick either \"Yes\", \"No\" or \"Invalid\"",
+      "- If the answer is **yes**, the player earns a point",
+      "- Players can click the **Guess** button at any time to make a guess.",
+      "- Failure to provide a question, provide an **invalid** question or give an incorrect guess, the player is removed from the round"
+    ]
+  },
+  "hilodice": {
+    "type": "game",
+    "nicename": "Hi/Low Dice",
+    "gif": false,
+    "description": "A simple dice roll game with 5 numbered dice and 1 hi/lo dice. Players aim to get the highest score. Based off the dice game Cinq-o",
+    "minPlayers": 2,
+    "text": [
+      "Players roll dice and try to find the perfect roll, aiming to achieve high or low scores.",
+      "- There are 5 numbered dice (1-6) and one Hi/Lo die.",
+      "- Players roll all six (grey) dice and can re-roll up to five times.",
+      "- After each roll, at least one die (numbered or Hi/Lo) must be \"locked\" in for end round scoring",
+      "- \"Locked\" dice will not be re-rolled.",
+      "- At the end of the round, numbered dice will be totalled.",
+      "- Points will be based off the highest or lowest possible score (depending on the Hi/Lo die).",
+      "- Points are then mulitplied by the number on the Hi/Lo die.",
+      "- The first player to reach **100** points wins."
+    ]
+  },
+  "lg": {
+    "type": "game",
+    "nicename": "Larry Games",
+    "description": "A self-playing game where random actions are picked for players.",
+    "gif": false,
+    "minPlayers": 2,
+    "maxPlayers": 50,
+    "text": [
+      "Your aim is to be the last surviving player.",
+      "- Players will be placed in to teams.",
+      "- Teams don't really do anything.",
+      "- All actions will be selected at random.",
+      "- Occasionally you might recieve a DM to select an action.",
+      "- Failure to select in time will mean death."
+    ]
+  },
+  "attack": {
+    "type": "game",
+    "nicename": "Dice Attack!",
+    "description": "A self-playing dice game where rolls determine attack strength and defence.",
+    "gif": false,
+    "minPlayers": 2,
+    "maxPlayers": 50,
+    "text": [
+      "Players face off by rolling dice; similar to the game __Risk™__.",
+      "- Each player starts with **5** lives.",
+      "- **Attacker** rolls up to **3** dice; defender rolls up to **2**.",
+      "- **Defender** loses a life for each dice roll beaten by the attacker.",
+      "- Losing lives reduces the number of dice a player can roll.",
+      "- If no attack dice beat the defender's, the attack is blocked.",
+      "- New attacker is chosen each turn.",
+      "- Last player standing wins."
+    ]
+  },
+  "wordchain": {
+    "type": "game",
+    "nicename": "Word Chain",
+    "description": "A word game where players use the last letter of the previous word to start a new word.",
+    "gif": false,
+    "minPlayers": 2,
+    "text": [
+      "Game play will start with a given word.",
+      "- **Larry** picks a player to say a word starting with the **last letter** of the given word.",
+      "- **Larry** picks the next player to continue the chain.",
+      "- If a player repeats a word or says an incorrect word, they lose a life",
+      "- Default is **1 life**; you can turn on 'Lives' for a longer game.",
+      "- Last player standing wins!"
+    ]
+  },
+  "sequence": {
+    "type": "game",
+    "nicename": "Sequence",
+    "description": "A memory game where players must remember the sequence of displayed emojis.",
+    "gif": false,
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "text": [
+      "A sequence starts with **1** emote.",
+      "- Players click matching buttons in the displayed order.",
+      "- Each round, the sequence length increases **+1**.",
+      "- A mistake ends the round, awarding points to remaining players.",
+      "- If the sequence reaches **20** icons, the round ends, and everyone scores.",
+      "- After **5** rounds, the player with the highest score wins."
+    ]
+  },
+  "whodunnit": {
+    "type": "game",
+    "nicename": "Whodunnit?",
+    "description": "Find the killer, the weapon and the room. Based of the board game Cluedo.",
+    "gif": false,
+    "minPlayers": 1,
+    "maxPlayers": 20,
+    "text": [
+      ":detective: **A Murder in the Server!** :detective:",
+      "Can **YOU** solve the murder mystery?",
+      "🔍 **Your mission:** figure out the culprit, the weapon, and the channel where it all went down!",
+      "💼 **How to Play:** Each round, make your best guess using the dropdowns. Good luck, detective!"
+    ]
+  },
+  "aa": {
+    "type": "game",
+    "nicename": "AA: Acronyms Anonymous",
+    "description": "Players use the letters provided to create a funny saying.",
+    "gif": true,
+    "minPlayers": 3,
+    "maxPlayers": 20,
+    "text": [
+      "An acronym is a word from initials: (e.g., **LGR** = **L**arry **R**ocks **Y**ou!).",
+      "- Players have **30 seconds** to create an acronym.",
+      "- Click the button, then enter your acronym in the popup.",
+      "- Everyone votes after time is up.",
+      "- Earn **1 point** per vote received.",
+      "- Most votes = **3 points** (or **2 points** for a tie).",
+      "- Earn **1 point** for voting on the top choice.",
+      "- No submission or vote = **-1 point**.",
+      "- Game lasts **5 rounds**; highest score wins."
+    ]
+  },
+  "says": {
+    "type": "game",
+    "nicename": "Larry Says...",
+    "description": "A Discord version of 'Simon Says'. Do what Larry says.",
+    "gif": false,
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "text": [
+      "I will give a random task",
+      "- You must complete the task __correctly__ within the time",
+      "- Take too long, or do it wrong, and you're out.",
+      "- Each round the time will be reduced.",
+      "- The game will keep going until one player remains."
+    ]
+  },
+  "tag": {
+    "nicename": "Tag",
+    "description": "Play head to head with your friends a virtual game of tag. Someone is picked at random to be \"it\".  Tagging back is optional.",
+    "gif": false,
+    "type": "game",
+    "minPlayers": 3,
+    "maxPlayers": 20,
+    "text": [
+      "Each player starts with **3** lives.",
+      "- Someone will be selected at random to be 'it'.",
+      "- They must try tag someone within **15 seconds**",
+      "- Easy?",
+      "- The % next to someone's name is the chance of the tag being successful.",
+      "- Special abilities may be used (if available).",
+      "- Lose all your lives and you are eliminated.",
+      "- When only **2 players** remain, person with the **most lives** will be determined the winner.",
+      "- In the case of a tie, the most points will win."
+    ]
+  },
+  "sos": {
+    "type": "game",
+    "nicename": "Split or Steal",
+    "gif": false,
+    "description": "A basic game using your server XP or currency. Players choose to split the prize, or steal it all for themselves.",
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "text": [
+      "I will select **2** people and they will have a choice of **2** buttons.",
+      "- Click **SPLIT** if you want to share the prize.",
+      "- Click **STEAL** if you are feeling greedy and want it all.",
+      "_However_",
+      "- If only one person selects SPLIT and the other selects STEAL, then the stealer takes all.",
+      "- If BOTH people select STEAL, nobody gets the prize.",
+      "- If you fail to select within __30 seconds__, you are out and the other person wins all."
+    ]
+  },
+  "hangman": {
+    "type": "game",
+    "nicename": "Hangman",
+    "description": "Players guess letters to figure out the word and guess it before everyone else.",
+    "gif": false,
+    "minPlayers": 0,
+    "text": [
+      "Words will be determined from a selected theme.",
+      "- Each round, each player can guess 1 letter or the word, however",
+      "- You cannot guess the word on the first round.",
+      "- From the second round onwards you can guess the word.",
+      "- Be the first to guess the word correctly to win the point."
+    ]
+  },
+  "gingen": {
+    "type": "game",
+    "nicename": "Gin-Generator",
+    "description": "Idea by Ginga. A random number is chosen, players must guess the number to win the price of server XP or currency. Get it wrong and the prize increases.",
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "gif": false,
+    "active": false,
+    "text": [
+      "A player will be picked.",
+      "- They must guess a number between `1` and `10` before the time runs out.",
+      "- If guessed correctly you get the pot.",
+      "- If you're incorrect, the amount will increase.",
+      "- Stay in chat if you play"
+    ]
+  },
+  "adventurers": {
+    "type": "game",
+    "nicename": "Adventurers",
+    "description": "Based off the board game 'Incan Gold'. Players are explorers who go looking for treasure. Leave alone and collect it all, leave with someone and you must share. Watch out for dangers.",
+    "minPlayers": 2,
+    "gif": false,
+    "command": ["/adventurers <start_in> <bonus> <max_players>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts.",
+      "<run_days> (Optional. default 5) How many days to run for? Max 30 or 2x Number of players"
+    ],
+    "text": [
+      "The game is played over **5** days, with an item revealed each day.",
+      "- Items (Treasure, Hazard, or Idol) are revealed one by one.",
+      "- After items are revealed, each player must click to continue exploring or to leave with the treasure.",
+      "- Continuing players can find more treasure.",
+      "- Treasure values vary based on player numbers.",
+      "- Treasure is divided equally among players who leave.",
+      "- Idols are always worth **$200**, with one additional added each round.",
+      "- Idols are not shared, and will be lost if more than one player leaves at the same time.",
+      "- If two identical hazards appear, the round ends, causing all players to lose their treasure as they flee the cave. The second hazard is then removed from the game, and the round is over.",
+      "- The player with the most treasure after **5** days wins the game."
+    ]
+  },
+  "boats": {
+    "type": "game",
+    "gif": false,
+    "nicename": "Battle Boats",
+    "description": "3 team, Discord version of the game of Battle Ships",
+    "minPlayers": 3,
+    "maxPlayers": 21,
+    "command": ["/battleboats <start_in>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts."
+    ],
+    "text": [
+      "Battle Boats is a team version of the classic 'Battleships'.",
+      "- Players are separated into **3** teams.",
+      "- Each player will choose a location to place a fleet of boats and players then take turns choosing a location to attack.",
+      "- The location you choose may hit one, both or neither enemy fleet.",
+      "- Satellites may be found which will reveal a fleet location",
+      "- Watch out for Air Strikes!",
+      "- Your goal is to destroy all enemy fleets and be the last fleet standing."
+    ]
+  },
+  "codebreaker": {
+    "type": "game",
+    "minPlayers": 1,
+    "description": "Guess the code before the other players.",
+    "nicename": "Codebreaker",
+    "gif": false,
+    "command": ["/codebreaker <mode> <start_in>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts.",
+      "<mode> (Optional. Default normal) Can be Simple (4 of 4 buttons), Normal (4 of 5 buttons), Hard (4 of 8 buttons)"
+    ],
+    "text": [
+      "Guess the code by pressing a series of buttons.",
+      "- Missing or incorrect presses will slow you down.",
+      "- You will receive feedback after each round.",
+      "- Be the first to crack the code to win!",
+      "**Only you will see your progress.**",
+      "✅ you have the correct symbol in the correct location.",
+      "⚠ you have the correct symbol, but it's in the wrong place.",
+      "⛔ that symbol does not belong in the code.",
+      "-# **Options**",
+      "- __Code Size:__ How long will the code be? (default 4)",
+      "- __Code Choices:__ - How many options to choose from (default 6)",
+      "- __Allow Duplicates:__ Allow duplicate symbols in the code (default FALSE)"
+    ]
+  },
+  "dice": {
+    "type": "game",
+    "minPlayers": 1,
+    "nicename": "Dice Dare",
+    "description": "Roll to get the highest score. Watch out for skulls.",
+    "gif": true,
+    "command": ["/dice <start_in> <play_to> <reverse>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts.",
+      "<play_to> (Optional. 50-500, default 100) Points to play to until game over.",
+      "<mode> (Optional) Normal, Elimination (eliminate when not stopped), Variant (extra dice) or Reverse (lowest points wins)."
+    ],
+    "text": [
+      "How good can you roll dice?",
+      "- Roll as many dice as possible in **30** seconds (normal) or **15** seconds (reverse), or stop anytime.",
+      "- Each round rolled score is added to your total.",
+      "- First to reach the required points wins.",
+      "- Roll a ☠, you're out for the round with **0** points.",
+      "- In Reverse/Variant Mode, roll a ◀️, and lose **10** points."
+    ]
+  },
+  "higherlower": {
+    "type": "game",
+    "minPlayers": 2,
+    "description": "A random number is picked. Players guess and will be told the number is either higher or lower",
+    "nicename": "Higher or Lower",
+    "gif": false,
+    "command": ["/higherlower <start_in> <max> <min>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts.",
+      "<max> (Optional) The maximum number to pick",
+      "<min> (Optional, default 0) The minimum number to pick."
+    ],
+    "text": [
+      "Players work together to guess the secret number.",
+      "- A player is chosen at random to guess a number between two provided numbers.",
+      "- GUESS ONLY ON YOUR TURN AND WITHIN THE TIME LIMIT.",
+      "- Missing your turn or guessing outside the range of previous clues results in a strike.",
+      "- Too many strikes and you're out.",
+      "- Correct guess wins."
+    ]
+  },
+  "mathrace": {
+    "type": "game",
+    "minPlayers": 0,
+    "nicename": "Math Race",
+    "description": "Answer basic math questions. Most points, wins.",
+    "gif": false,
+    "command": ["/mathrace <mode>"],
+    "commandInfo": ["<mode> Can be Normal, Roman or Time"],
+    "text": [
+      "A race to see who can answer the most questions.",
+      "All you need to do is say the answer",
+      "First to get it right, wins a point"
+    ]
+  },
+  "rlgl": {
+    "type": "game",
+    "nicename": "Red Light Green Light",
+    "description": "Click the right button to stay in. 1 person is eliminated each round. Last player wins",
+    "minPlayers": 2,
+    "gif": false,
+    "command": ["/rlgl <mode> <start_in>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts."
+    ],
+    "text": [
+      "Click the button as said by the bot before time runs out.",
+      "- The last person will be eliminated; the last person standing **wins**!",
+      "-# **Options**",
+      "* __Blue Light:__ Add a Blue 🔵 button (default TRUE)",
+      "* __No Light:__",
+      "  * Add a 'No Light' round only - no button, don't press _OR_",
+      "  * add a 'No Light' ⚫ button - button must be pressed _OR_",
+      "  * Off (default)",
+      "* __Move Buttons:__ Move the button locations (default FALSE)",
+      "* __Chaos Buttons:__ Looks can be deceiving 😈 (default FALSE)"
+    ]
+  },
+  "rpsls": {
+    "type": "game",
+    "gif": false,
+    "nicename": "Rock Paper Scissors Lizard Spock",
+    "description": "From Big Bang Theory. Rock Paper Scissors with a twist.",
+    "minPlayers": 2,
+    "command": ["/rpsls <start_in>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts."
+    ],
+    "text": [
+      "Rock, Paper, Sissors, Lizard, Spock was created by internet pioneer Sam Kass as an improvement of the classic game Rock, Paper, Scissors and made popular by the TV series 'The Big Bang Theory'.",
+      "-# All hail Sam Kass!",
+      "",
+      "- Each round, two players are chosen.",
+      "- The winner moves on, and the loser is eliminated!",
+      "- The last person standing wins!",
+      "-# **Outcomes:**",
+      "✂️ cuts 📜 and decapitates 🦎",
+      "📜 covers 🧱 and disproves 🖖",
+      "🧱 crushes 🦎 and ✂️",
+      "🦎 poisons 🖖 and eats 📜",
+      "🖖 smashes ✂️ and vaporises 🧱"
+    ]
+  },
+  "twoup": {
+    "type": "game",
+    "gif": false,
+    "description": "A coin flip game. 2 coins, you pick what you think will come up.",
+    "nicename": "Two-Up",
+    "minPlayers": 2,
+    "command": ["/twoup <start_in>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts."
+    ],
+    "text": [
+      "A group coin-flip game.",
+      "- Pick wrong and you're out.",
+      "- Last player standing, wins!",
+      "-# **Choices:**",
+      "### Two Heads",
+      "### Two Tails",
+      "### One of Each"
+    ]
+  },
+  "memory": {
+    "type": "game",
+    "description": "Try to remember and repeat the displayed pattern. Press the wrong button and you may be eliminated.",
+    "nicename": "Memory",
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "gif": false,
+    "text": [
+      "- The game plays over **5** rounds.",
+      "- Each round, **_memorize_** all the 🔴 correct locations to score points.",
+      "- **Correct** picks earn points, **wrong** lose points.",
+      "- Clicking 🚫 **eliminates** you from the game.",
+      "- Highest score after all **5** rounds wins."
+    ]
+  },
+  "shootout": {
+    "type": "game",
+    "minPlayers": 2,
+    "nicename": "Shootout!",
+    "description": "Shoot the other player and be the last one standing.",
+    "gif": false,
+    "text": [
+      "Demand satisfaction! Last one standing, wins!",
+      "During rounds, **Two players** will be selected at random to battle against each other",
+      "🔫 Shoot your opponent before they shoot you!",
+      "⏳ Shoot too early, and it will cost you time to reload.",
+      "😇 Watch out for the civilians."
+    ]
+  },
+  "ww": {
+    "type": "game",
+    "nicename": "Werewolf",
+    "description": "A game of deduction. Everyone has roles either team villager or team werewolf.",
+    "minPlayers": 3,
+    "gif": false,
+    "command": ["/ww <start_in> <mode>"],
+    "commandInfo": [
+      "<start_in> (Optional. default 1) Minutes until game starts.",
+      "<mode> (Optional)",
+      "**Game Modes**",
+      "Default - Random game with set number of villagers and werewolves as well as some random special roles.",
+      "Classic - A classic version of the game where roles are fixed to number of players",
+      "Hunters - A game of Hunter vs Werewolf.",
+      "Valentines - You and your lover need to both survive to win."
+    ],
+    "text": [
+      "Werewolf is a game of deduction.",
+      "- You will assigned a role in either Team Werewolf or Team Villager.",
+      "- The werewolves know eachother, but villagers won't know them.",
+      "- As a villager you must try get the werewolves before they get you.",
+      "- Actions use your Direct Messages (DMs), please make sure you have them enabled and are watching."
+    ]
+  }
+}
