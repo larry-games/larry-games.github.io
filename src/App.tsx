@@ -87,17 +87,6 @@ const App = () => {
     );
   };
 
-  const UptimeBadge = () => {
-    return (
-      <iframe
-        title="Larry Status"
-        src={`https://larrygames.betteruptime.com/badge?theme=${!darkMode ? "light" : "dark"}`}
-        width={250}
-        height={30}
-        style={{ colorScheme: "normal" }}
-      ></iframe>
-    );
-  };
   const Privacy = () => {
     return (
       <>
@@ -215,7 +204,6 @@ const App = () => {
               <h1 className="d-inline-block">Larry Games</h1>
             </Navbar.Brand>
             <TopGGBadge />
-            <UptimeBadge />
           </Container>
         </Navbar>
       </>
