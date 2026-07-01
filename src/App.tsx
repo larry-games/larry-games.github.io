@@ -290,7 +290,7 @@ const App = () => {
                   <Col md={4}>
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/larryland/welcome.png"
+                      src="https://larry-games.github.io/img/larryland/welcome.png"
                     />
                   </Col>
                   <Col md={8}>
@@ -325,7 +325,7 @@ const App = () => {
                   <Col md={4} className="d-md-none">
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/larryland/hosting.png"
+                      src="https://larry-games.github.io/img/larryland/hosting.png"
                     />
                   </Col>
                   <Col md={8}>
@@ -339,7 +339,7 @@ const App = () => {
                   <Col md={4} className="d-none d-md-block">
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/larryland/hosting.png"
+                      src="https://larry-games.github.io/img/larryland/hosting.png"
                     />
                   </Col>
                 </Row>
@@ -354,7 +354,7 @@ const App = () => {
                   <Col md={4}>
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/werewolf/villager.png"
+                      src="https://larry-games.github.io/img/werewolf/villager.png"
                     />
                   </Col>
                   <Col md={8}>
@@ -386,7 +386,7 @@ const App = () => {
                   <Col md={4} className="d-md-none">
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/1771669154004_1.png"
+                      src="https://larry-games.github.io/img/1771669154004_1.png"
                     />
                   </Col>
                   <Col md={8}>
@@ -408,7 +408,7 @@ const App = () => {
                   <Col md={4} className="d-none d-md-block">
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/1771669154004_1.png"
+                      src="https://larry-games.github.io/img/1771669154004_1.png"
                     />
                   </Col>
                 </Row>
@@ -423,7 +423,7 @@ const App = () => {
                   <Col md={4}>
                     <Card.Img
                       variant="rounded-start img-fluid"
-                      src="https://larrygames.pages.dev/img/larryland/patreon.png"
+                      src="https://larry-games.github.io/img/larryland/patreon.png"
                     />
                   </Col>
                   <Col md={8}>
