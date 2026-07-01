@@ -212,10 +212,7 @@ const App = () => {
                 height="60"
                 className="d-inline-block align-top"
               />{" "}
-              <h1 className="d-inline-block">
-                Larry Games{" "}
-                <small className="text-muted fs-6">by @re-mark-able</small>
-              </h1>
+              <h1 className="d-inline-block">Larry Games</h1>
             </Navbar.Brand>
             <TopGGBadge />
             <UptimeBadge />
